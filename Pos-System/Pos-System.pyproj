@@ -21,7 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="database.py" />
+    <Compile Include="models.py" />
     <Compile Include="Pos_System.py" />
+    <Compile Include="views\customers.py" />
+    <Compile Include="views\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="views\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
